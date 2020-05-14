@@ -1,0 +1,13 @@
+<html>
+<body>
+<p> id="demo"></p>
+<script>
+var fruits = ["banana","orange","apple","mango"];
+document.getElementById("demo").innerHTML = isArray(fruits);
+
+function isArray(myArray) {
+  return myArray.constructor === Array;
+}
+</script>
+</body>
+</html>

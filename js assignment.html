@@ -1,0 +1,46 @@
+<html>
+<title> javascript table</title>
+<body>
+<table border="1">
+	<tr>
+		<td>Number</td>
+		<td>Square</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>16</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>25</td>
+	</tr>
+</table>
+<script type="text/javascript">
+	var table = '';
+	var rows = 2;
+	var cols = 6;
+	for (var r = 0; r < rows; r++);
+	{
+		table+='<tr>';
+		for (var c = 0; c < cols; c++)
+		{
+			table +='<td>' + c + '</td>';
+		}
+		table += '</tr>';
+	}
+	document.write('<table>' + table + '</table>')
+</script>
+</body>
+</html>

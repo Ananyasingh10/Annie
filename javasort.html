@@ -1,0 +1,16 @@
+<html>
+<body>
+<h2> java script array sort </h2>
+<button onclick="myFunction()">try it </button>
+<p id="demo"></p>
+<script>
+var points = [4, 50, 67, 43];
+document.getElementById("demo").innerHTML = points;
+
+function myFunction() {
+points.sort(function(a,b){return a-b});
+document.getElementById("demo").innerHTML = points;
+}
+</script>
+</body>
+</html>

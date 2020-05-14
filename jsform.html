@@ -1,0 +1,19 @@
+<html>
+<body>
+<input id="id1" type="number" max="100">
+<button onclick="myFunction()">ok</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+ var txt = "";
+ if (document.getElementById("id1").validity.typeMismatch) {
+ txt= "no";
+ } else {
+ txt = "input ok";
+ }
+ document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html
